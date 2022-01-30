@@ -12,7 +12,9 @@ RUN set -x && \
                flac \
                fontconfig \
                lame \
+               mariadb-client \
                openjdk14-jre \
+               postgresql-client \
                ttf-dejavu \
                && \
      \
