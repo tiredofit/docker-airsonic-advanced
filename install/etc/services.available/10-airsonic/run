@@ -1,0 +1,27 @@
+#!/usr/bin/with-contenv bash
+
+source /assets/functions/00-container
+prepare_service
+PROCESS_NAME="airsonic"
+
+prepare_service
+liftoff
+
+URL_BASE="/${URL_PATH}"
+IFS=" " read -r -a RUN_ARRAY <<< "$EXTRA_OPTIONS"
+
+cd "${AIRSONIC_ADVANCED_HOME}" || exit
+print_info "Starting Airsonic Advanced ${AIRSONIC_VERSION}"
+cd /app
+exec s6-setuidgid ${AIRSONIC_USER} java \
+            -Dlog4j2.formatMsgNoLookups=true \
+            -Dairsonic.defaultMusicFolder=/data/music \
+            -Dairsonic.defaultPlaylistFolder=/data/playlists \
+            -Dairsonic.defaultPodcastFolder=/data/podcasts \
+            -Dairsonic.home="${CONFIG_PATH}" \
+            -Djava.awt.headless=true \
+            -Dserver.servlet.context-path="${URL_BASE}" \
+            -Dserver.host=${LISTEN_IP} \
+            -Dserver.port=${LISTEN_PORT} \
+            "${RUN_ARRAY[@]}" \
+            -jar airsonic.war
