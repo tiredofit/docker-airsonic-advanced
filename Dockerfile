@@ -1,6 +1,8 @@
-FROM tiredofit/alpine:3.15
+FROM docker.io/tiredofit/alpine:3.15
 
-ENV AIRSONIC_VERSION=11.0.0-SNAPSHOT.20220129204202
+ENV AIRSONIC_VERSION=11.0.0-SNAPSHOT.20220129204202 \
+    IMAGE_NAME="tiredofit/airsonic-advanced" \
+    IMAGE_REPO_URL="https://github.com/tiredofit/docker-airsonic-advanced/"
 
 RUN set -x && \
     addgroup -g 4040 airsonic && \

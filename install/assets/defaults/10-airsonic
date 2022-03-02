@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv bash
+#!/command/with-contenv bash
 
 AIRSONIC_USER=${AIRSONIC_USER:-"airsonic"}
 AIRSONIC_GROUP=${AIRSONIC_GROUP:-"airsonic"}
