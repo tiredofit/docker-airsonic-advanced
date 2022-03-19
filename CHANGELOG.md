@@ -1,3 +1,9 @@
+## 0.0.3 2022-03-19 <dave at tiredofit dot ca>
+
+   ### Added
+      - Updat snapshot
+
+
 ## 0.0.2 2022-01-30 <dave at tiredofit dot ca>
 
    ### Added
