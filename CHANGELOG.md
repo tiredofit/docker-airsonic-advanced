@@ -1,3 +1,10 @@
+## 0.0.5 2022-05-24 <dave at tiredofit dot ca>
+
+   ### Added
+      - Alpine 3.16 Base
+      - Airsonic Advanced Snapshot 20220418221611
+
+
 ## 0.0.4 2022-04-16 <dave at tiredofit dot ca>
 
    ### Added
