@@ -2,7 +2,7 @@
 
 
 [![GitHub release](https://img.shields.io/github/v/tag/tiredofit/docker-airsonic-advanced?style=flat-square)](https://github.com/tiredofit/docker-airsonic-advanced/releases/latest)
-[![Build Status](https://img.shields.io/github/workflow/status/tiredofit/docker-airsonic-advanced/build?style=flat-square)](https://github.com/tiredofit/docker-airsonic-advanced/actions?query=workflow%3Abuild)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/tiredofit/docker-airsonic-advanced/main.yml?branch=main&style=flat-square)](https://github.com/tiredofit/docker-airsonic-advanced/actions)
 [![Docker Stars](https://img.shields.io/docker/stars/tiredofit/nginx.svg?style=flat-square&logo=docker)](https://hub.docker.com/r/tiredofit/nginx/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/tiredofit/nginx.svg?style=flat-square&logo=docker)](https://hub.docker.com/r/tiredofit/nginx/)
 [![Become a sponsor](https://img.shields.io/badge/sponsor-tiredofit-181717.svg?logo=github&style=flat-square)](https://github.com/sponsors/tiredofit)
@@ -51,7 +51,7 @@ docker exec -it (whatever your container name is) bash
 These images were built to serve a specific need in a production environment and gradually have had more functionality added based on requests from the community.
 ### Usage
 - The [Discussions board](../../discussions) is a great place for working with the community on tips and tricks of using this image.
-- Consider [sponsoring me](https://github.com/sponsors/tiredofit) personalized support.
+- Consider [sponsoring me](https://github.com/sponsors/tiredofit) for personalized support
 ### Bugfixes
 - Please, submit a [Bug Report](issues/new) if something isn't working as expected. I'll do my best to issue a fix in short order.
 
