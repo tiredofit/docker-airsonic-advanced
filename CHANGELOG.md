@@ -1,3 +1,9 @@
+## 0.0.6 2023-07-07 <dave at tiredofit dot ca>
+
+   ### Added
+      - Airsonic Advanced 20230217142243
+
+
 ## 0.0.5 2022-05-24 <dave at tiredofit dot ca>
 
    ### Added
