@@ -1,3 +1,12 @@
+## 0.0.7 2023-08-22 <dave at tiredofit dot ca>
+
+   ### Added
+      - Airsonic Advanced kajemomiji 11.1.2
+
+   ### Changed
+      - Switch to kajemomiji fork of airsonic-advanced
+
+
 ## 0.0.6 2023-07-07 <dave at tiredofit dot ca>
 
    ### Added

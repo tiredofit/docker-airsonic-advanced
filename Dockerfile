@@ -1,6 +1,6 @@
 FROM docker.io/tiredofit/alpine:3.16
 
-ENV AIRSONIC_VERSION=11.0.0-SNAPSHOT.20230217142243 \
+ENV AIRSONIC_VERSION=11.1.2 \
     IMAGE_NAME="tiredofit/airsonic-advanced" \
     IMAGE_REPO_URL="https://github.com/tiredofit/docker-airsonic-advanced/"
 
@@ -21,7 +21,7 @@ RUN set -x && \
                && \
      \
      mkdir -p /app && \
-     curl -sSL https://github.com/airsonic-advanced/airsonic-advanced/releases/download/${AIRSONIC_VERSION}/airsonic.war -o /app/airsonic.war && \
+     curl -sSL https://github.com/kagemomiji/airsonic-advanced/releases/download/${AIRSONIC_VERSION}/airsonic.war -o /app/airsonic.war && \
      rm -rf /var/cache/apk/*
 
 EXPOSE 4040
