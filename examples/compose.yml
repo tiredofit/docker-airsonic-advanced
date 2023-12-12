@@ -1,4 +1,3 @@
-version: '2.4'
 services:
  
   airsonic-advanced-app:
@@ -14,6 +13,7 @@ services:
       - ./data/music:/data/music
       - ./data/playlists:/data/playlists
     environment:
+      - TIMEZONE=America/Vancouver
       - DB_TYPE=mariadb
       - DB_USER=airsonic
       - DB_NAME=airsonic
@@ -30,6 +30,7 @@ services:
     volumes:
       - ./db:/var/lib/mysql
     environment:
+      - TIMEZONE=America/Vancouver
       - ROOT_PASS=password
       - DB_NAME=airsonic
       - DB_USER=airsonic
@@ -46,16 +47,15 @@ services:
     volumes:
       - ./dbbackup:/backup
     environment:
-      - DB_HOST=airsonic-advanced-db
-      - DB_TYPE=mariadb
-      - DB_NAME=airsonic
-      - DB_USER=airsonic
-      - DB_PASS=airsonic
-      - DB_DUMP_FREQ=1440
-      - DB_DUMP_BEGIN=0000
-      - DB_CLEANUP_TIME=8640
-      - COMPRESSION=BZ
-      - MD5=TRUE
+      - TIMEZONE=America/Vancouver
+      - DB01_HOST=airsonic-advanced-db
+      - DB01_TYPE=mariadb
+      - DB01_NAME=airsonic
+      - DB01_USER=airsonic
+      - DB01_PASS=airsonic
+      - DB01_BACKUP_INTERVAL=1440
+      - DB01_BACKUP_BEGIN=0000
+      - DB01_CLEANUP_TIME=8640
     networks:
       - services
     restart: always
