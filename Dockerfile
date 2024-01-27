@@ -1,6 +1,6 @@
 FROM docker.io/tiredofit/alpine:3.19
 
-ENV AIRSONIC_VERSION=11.1.3-SNAPSHOT.20240126222220 \
+ENV AIRSONIC_VERSION=11.1.3-SNAPSHOT.20240127161405 \
     IMAGE_NAME="tiredofit/airsonic-advanced" \
     IMAGE_REPO_URL="https://github.com/tiredofit/docker-airsonic-advanced/"
 
