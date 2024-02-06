@@ -1,6 +1,10 @@
-FROM docker.io/tiredofit/alpine:3.19
+ARG DISTRO=alpine
+ARG DISTRO_VARIANT=3.19
 
-ENV AIRSONIC_VERSION=11.1.3-SNAPSHOT.20240128135559 \
+FROM docker.io/tiredofit/${DISTRO}:${DISTRO_VARIANT}
+LABEL maintainer="Dave Conroy (github.com/tiredofit)"
+
+ENV AIRSONIC_VERSION=11.1.3 \
     IMAGE_NAME="tiredofit/airsonic-advanced" \
     IMAGE_REPO_URL="https://github.com/tiredofit/docker-airsonic-advanced/"
 
