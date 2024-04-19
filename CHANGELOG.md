@@ -1,3 +1,9 @@
+## 0.0.19 2024-04-19 <dave at tiredofit dot ca>
+
+   ### Added
+      - SNAPSHOT.20240419145421
+
+
 ## 0.0.18 2024-04-09 <dave at tiredofit dot ca>
 
    ### Added
