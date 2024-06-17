@@ -1,3 +1,9 @@
+## 0.0.30 2024-06-17 <dave at tiredofit dot ca>
+
+   ### Added
+      - 11.1.4-SNAPSHOT.20240616141843
+
+
 ## 0.0.29 2024-06-13 <dave at tiredofit dot ca>
 
    ### Added
