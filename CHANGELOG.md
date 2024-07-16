@@ -1,3 +1,9 @@
+## 0.0.36 2024-07-16 <dave at tiredofit dot ca>
+
+   ### Added
+      - Airsonic Advanced 11.1.4-SNAPSHOT.20240716142846
+
+
 ## 0.0.35 2024-07-14 <dave at tiredofit dot ca>
 
    ### Added
