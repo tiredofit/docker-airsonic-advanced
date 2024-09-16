@@ -4,7 +4,9 @@ ARG DISTRO_VARIANT=3.20
 FROM docker.io/tiredofit/${DISTRO}:${DISTRO_VARIANT}
 LABEL maintainer="Dave Conroy (github.com/tiredofit)"
 
-ENV AIRSONIC_VERSION=11.1.4-SNAPSHOT.20240913070015 \
+ARG AIRSONIC_VERSION
+
+ENV AIRSONIC_VERSION=${AIRSONIC_VERSION:-"11.1.4-SNAPSHOT.20240913070015"} \
     IMAGE_NAME="tiredofit/airsonic-advanced" \
     IMAGE_REPO_URL="https://github.com/tiredofit/docker-airsonic-advanced/"
 
