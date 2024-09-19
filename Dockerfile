@@ -6,7 +6,7 @@ LABEL maintainer="Dave Conroy (github.com/tiredofit)"
 
 ARG AIRSONIC_VERSION
 
-ENV AIRSONIC_VERSION=${AIRSONIC_VERSION:-"11.1.4-SNAPSHOT.20240919045140"} \
+ENV AIRSONIC_VERSION=${AIRSONIC_VERSION:-"11.1.4"} \
     IMAGE_NAME="tiredofit/airsonic-advanced" \
     IMAGE_REPO_URL="https://github.com/tiredofit/docker-airsonic-advanced/"
 
