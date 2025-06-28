@@ -1,3 +1,9 @@
+## 0.0.58 2025-06-27 <dave at tiredofit dot ca>
+
+   ### Added
+      - Edge Release 11.1.5-SNAPSHOT.20250628044617
+
+
 ## 0.0.57 2025-06-22 <dave at tiredofit dot ca>
 
    ### Added
