@@ -1,3 +1,10 @@
+## 0.0.61 2025-07-07 <dave at tiredofit dot ca>
+
+   ### Added
+      - OpenJDK 21
+      - Alpine 3.21
+
+
 ## 0.0.60 2025-07-02 <dave at tiredofit dot ca>
 
    ### Added
