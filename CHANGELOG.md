@@ -1,3 +1,10 @@
+## 0.0.66 2025-08-03 <dave at tiredofit dot ca>
+
+   ### Added
+      - 11.1.5-SNAPSHOT.20250803054843
+      - aarch64 support
+
+
 ## 0.0.65 2025-07-25 <dave at tiredofit dot ca>
 
    ### Added
